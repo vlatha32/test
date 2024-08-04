@@ -1,5 +1,6 @@
-with emplyees as(
+with es as
+(
 select company,field1
 from public.table1
 )
-select * from emplyees;
+select * from es
