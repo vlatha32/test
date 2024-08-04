@@ -1,1 +1,5 @@
-with employees as (select empid, name, dob, sal from mydb.public.emp_clone)
+with emplyees as(
+select company,field1
+from public.table1
+)
+select * from emplyees;
